@@ -1,0 +1,23 @@
+{
+  "name": "aguakan",
+  "version": "1.0.0",
+  "description": "Aguakan proyect",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanksyek/Aguakan.git"
+  },
+  "author": "Juan Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juanksyek/Aguakan/issues"
+  },
+  "homepage": "https://github.com/Juanksyek/Aguakan#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.4"
+  }
+}

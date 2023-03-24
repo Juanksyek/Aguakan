@@ -38,6 +38,7 @@ a,
 .side_menu {
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
+    z-index: 9999999;
 }
 
 /* MENU CONTAINER ----- */
@@ -176,4 +177,72 @@ a,
 
 .list_item a:hover {
     background: rgba(255, 255, 255, .2);
+}
+
+#index{
+    background-color: #ffffff;
+    background-size: cover;
+    height: 100%;
+}
+
+.img1{
+    position: fixed;
+    width: 50%;
+    left: -19%;
+    top: -2%;
+    z-index: 1;
+}
+.img2{
+    position: fixed;
+    width: 50%;
+    right: -19%;
+    top: -12%;
+}
+.img3{
+    position: fixed;
+    height: 50%;
+    bottom: -16%;
+    right: 10%;
+    z-index: 6;
+}
+.img4{
+    position: fixed;
+    width: 50%;
+    bottom: -10%;
+    left: 20%;
+    z-index: 4;
+}
+.img5{
+    position: fixed;
+    width: 150%;
+    top: -35%;
+    left: -42%;
+    z-index: 2;
+}
+.img6{
+    position: fixed;
+    width: 120%;
+    top: 1%;
+    left: -7%;
+    top: 5%;
+    z-index: 5;
+}
+.img7{
+    position: fixed;
+    width: 150%;
+    left: -5%;
+    bottom: -53%;
+    z-index: 7;
+}
+.logo{
+    position: fixed;
+    width: 12%;
+    right: 2%;
+    top: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+    navigation {
+        overflow: scroll;
+    }
 }

@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    // Requires jQuery
 
 $(document).on('click','.js-menu_toggle.closed',function(e){
 	e.preventDefault(); $('.list_load, .list_item').stop();

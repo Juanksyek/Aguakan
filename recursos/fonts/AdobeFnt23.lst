@@ -1,0 +1,140 @@
+%!Adobe-FontList 1.23
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AcuminVariableConcept
+FamilyName:Acumin Variable Concept
+StyleName:Default
+MenuName:Acumin Variable Concept
+FamilyPrefix:AcuminConcept
+StyleBits:0
+WeightClass:275
+WidthClass:5
+AngleClass:0
+FullName:Acumin Variable Concept Default
+WritingScript:Roman
+OutlineFileName:/Users/karlamorfin/Desktop/aguakan Folder/Document fonts/AcuminVariableConcept.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:CFF2VariableFont
+FileLength:1029036
+FileModTime:695673628
+NameArray:0,Win,1,Acumin Variable Concept
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/karlamorfin/Desktop/aguakan Folder/Document fonts/AdobeFnt23.lst
+FileLength:3083
+FileModTime:701381161
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GothamRounded-Bold
+FamilyName:Gotham Rounded
+StyleName:Bold
+MenuName:Gotham Rounded Bold
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Gotham Rounded Bold
+WritingScript:Roman
+OutlineFileName:/Users/karlamorfin/Desktop/aguakan Folder/Document fonts/GothamRounded-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:127292
+FileModTime:490656228
+NameArray:0,Mac,4,Gotham Rounded Bold
+NameArray:0,Win,1,Gotham Rounded Bold
+NameArray:0,Win,16,Gotham Rounded
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GothamRounded-Book
+FamilyName:Gotham Rounded
+StyleName:Book
+MenuName:Gotham Rounded Book
+StyleBits:0
+WeightClass:325
+WidthClass:5
+AngleClass:0
+FullName:Gotham Rounded Book
+WritingScript:Roman
+OutlineFileName:/Users/karlamorfin/Desktop/aguakan Folder/Document fonts/GothamRounded-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:130412
+FileModTime:490656228
+NameArray:0,Mac,4,Gotham Rounded Book
+NameArray:0,Win,1,Gotham Rounded Book
+NameArray:0,Win,16,Gotham Rounded
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GothamRounded-Light
+FamilyName:Gotham Rounded
+StyleName:Light
+MenuName:Gotham Rounded Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Gotham Rounded Light
+WritingScript:Roman
+OutlineFileName:/Users/karlamorfin/Desktop/aguakan Folder/Document fonts/GothamRounded-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:127508
+FileModTime:490656228
+NameArray:0,Mac,4,Gotham Rounded Light
+NameArray:0,Win,1,Gotham Rounded Light
+NameArray:0,Win,16,Gotham Rounded
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GothamRounded-Medium
+FamilyName:Gotham Rounded
+StyleName:Medium
+MenuName:Gotham Rounded Medium
+StyleBits:0
+WeightClass:350
+WidthClass:5
+AngleClass:0
+FullName:Gotham Rounded Medium
+WritingScript:Roman
+OutlineFileName:/Users/karlamorfin/Desktop/aguakan Folder/Document fonts/GothamRounded-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:133436
+FileModTime:490656228
+NameArray:0,Mac,4,Gotham Rounded Medium
+NameArray:0,Win,1,Gotham Rounded Medium
+NameArray:0,Win,16,Gotham Rounded
+%EndFont
+
