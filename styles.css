@@ -1,39 +1,40 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,700);
-
-body {
-    color: #fff;
-    font-family: 'Raleway', Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 140%;
-    margin: 0;
-    min-height: 100vh;
-    padding: 0;
-    width: 100%;
+html,body {
+    height: 100%;
+    scroll-behavior: smooth;
+    overflow: hidden;
 }
 
-h1.page_title {
-    color: #000000;
+@font-face {
+    font-family: Gotham-Bold;
+    src: url(recursos/fonts/GothamRounded-Bold.otf);
 }
 
-h4.what_to_do {
-    color: #000000;
+@font-face {
+    font-family: Gotham-Book;
+    src: url(recursos/fonts/GothamRounded-Book.otf);
 }
 
-h2.menu_title {
-    color: #ffffff;
+@font-face {
+    font-family: Gotham-Light;
+    src: url(recursos/fonts/GothamRounded-Light.otf);
 }
 
-.page_title,
-.what_to_do {
-    font-weight: 300;
-    line-height: 120%;
-    text-align: center;
-    text-shadow: 0 1px 5px rgba(0, 0, 0, .8);
-    text-transform: uppercase;
+@font-face {
+    font-family: Gotham-Medium;
+    src: url(recursos/fonts/GothamRounded-Medium.otf);
 }
 
-/* PEN STYLES ========== */
+@font-face {
+    font-family: Acumin;
+    src: url(recursos/fonts/AcuminVariableConcept.otf);
+}
+
+h2{
+   font-family: Acumin; 
+   font-size: 3rem;
+   color: #fff;
+}
+
 a,
 .side_menu {
     -webkit-transition: all 300ms ease-in-out;
@@ -41,21 +42,19 @@ a,
     z-index: 9999999;
 }
 
-/* MENU CONTAINER ----- */
 .side_menu {
-    background: #000000;
-    height: 100vh;
-    left: -250px;
+    background: #0098D7;
+    height: 100%;
     position: absolute;
+    width: 400px;
     top: 0;
-    width: 250px;
+    padding: 0 0 0 100px;
 }
 
 .side_menu .container {
-    padding: 0 1em;
+    padding: 0 3em;
 }
 
-/* HAMBURGER STYLES ----- */
 .burger_box {
     display: block;
     float: right;
@@ -63,13 +62,16 @@ a,
 }
 
 .burger_box a.menu-icon {
-    display: inline-block;
+    position: relative;
+    place-items: center;
+    display: grid;
     float: none;
-    height: 43px;
+    height: 50px;
     padding: 10px;
     opacity: .5;
-    width: 45px;
+    width: 50px;
     z-index: 100;
+    right: -35%;
 }
 
 .burger_box a.menu-icon:hover,
@@ -78,7 +80,7 @@ a,
 }
 
 .burger_box a.menu-icon.opened {
-    background: #ffffff;
+    background: #0098D7;
 }
 
 .burger_box .menu-icon_box {
@@ -90,12 +92,13 @@ a,
 }
 
 .burger_box .menu-icon_line {
-    background: #000000;
+    background: #00529f;
     border-radius: 2px;
     display: inline-block;
     height: 3px;
     position: absolute;
     width: 100%;
+    
 }
 
 .burger_box .menu-icon_line--1 {
@@ -154,7 +157,6 @@ a,
     -webkit-transition: top 200ms, -webkit-transform 200ms 250ms;
 }
 
-/* STAGGER LIST ----- */
 .list_load {
     display: none;
     list-style: none;
@@ -179,67 +181,62 @@ a,
     background: rgba(255, 255, 255, .2);
 }
 
-#index{
-    background-color: #ffffff;
-    background-size: cover;
-    height: 100%;
+.contaniner{
+    position: relative;
 }
 
 .img1{
-    position: fixed;
-    width: 50%;
-    left: -19%;
-    top: -2%;
-    z-index: 1;
+    position: absolute;
+    width: 100%;
+    left: -27%;
+    bottom: 7%;
 }
 .img2{
-    position: fixed;
-    width: 50%;
-    right: -19%;
-    top: -12%;
-}
-.img3{
-    position: fixed;
-    height: 50%;
-    bottom: -16%;
-    right: 10%;
-    z-index: 6;
-}
-.img4{
-    position: fixed;
-    width: 50%;
-    bottom: -10%;
+    position: absolute;
+    width: 80%;
+    bottom: -20%;
     left: 20%;
-    z-index: 4;
 }
-.img5{
-    position: fixed;
-    width: 150%;
-    top: -35%;
-    left: -42%;
-    z-index: 2;
+
+.img3{
+    position: absolute;
+    width: 50%;
+    left: 67%;
+    top: -15%;
 }
-.img6{
-    position: fixed;
-    width: 120%;
-    top: 1%;
-    left: -7%;
-    top: 5%;
-    z-index: 5;
-}
-.img7{
-    position: fixed;
-    width: 150%;
-    left: -5%;
-    bottom: -53%;
-    z-index: 7;
-}
-.logo{
-    position: fixed;
-    width: 12%;
-    right: 2%;
-    top: 5%;
-}
+
+.fade-in-image {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 @media only screen and (max-width: 768px) {
     navigation {

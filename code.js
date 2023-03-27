@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    // Requires jQuery
 
 $(document).on('click','.js-menu_toggle.closed',function(e){
 	e.preventDefault(); $('.list_load, .list_item').stop();
@@ -24,7 +25,7 @@ $(document).on('click','.js-menu_toggle.opened',function(e){
 	e.preventDefault(); $('.list_load, .list_item').stop();
 	$(this).removeClass('opened').addClass('closed');
 
-	$('.side_menu').css({ 'left':'-250px' });
+	$('.side_menu').css({ 'left':'-500px' });
 
 	var count = $('.list_item').length;
 	$('.list_item').css({
